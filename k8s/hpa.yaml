@@ -9,7 +9,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: hello-aws-service-deployment
-  minReplicas: 1    # Mínimo de Pods em repouso
+  minReplicas: 0    # Mínimo de Pods em repouso
   maxReplicas: 3    # Máximo de Pods sob carga pesada
   metrics:
   - type: Resource
